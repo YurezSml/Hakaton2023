@@ -34,10 +34,10 @@
 ## Структура репозитория
 
     ├── DataProcessing                          # обработка данных
-    ├────── Train_Val_preparing_WithAgg.ipynb
-    ├────── Train_preparing_orders_WithoutAgg.ipynb
-    ├────── Val_preparing_orders_WithoutAgg.ipynb
-    ├────── feature_extract_WithAgg.ipynb                      
+    ├────── Train_Val_preparing_WithAgg.ipynb          # Предобработка train и val для модели с агрегацией
+    ├────── Train_preparing_orders_WithoutAgg.ipynb    # Предобработка train для модели без агрегации
+    ├────── Val_preparing_orders_WithoutAgg.ipynb      # Предобработка val для модели без агрегации
+    ├────── feature_extract_WithAgg.ipynb              # Извлеченеи признаков для модели с агрегацией
     ├── Model_WithAgg.ipynb                     # Модель с агрегацией
-    ├── Model_WithoutAgg.ipynb                  # Модель с агрегацией
+    ├── Model_WithoutAgg.ipynb                  # Модель без агрегации
     └── README.md                               # документация по проекту
