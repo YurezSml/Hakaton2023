@@ -41,4 +41,5 @@
     ├── Model_WithAgg.ipynb                     # Модель с агрегацией
     ├── Model_WithoutAgg.ipynb                  # Модель без агрегации
     ├── predict_test.parquet                    # Предсказание на test датасете
+    ├── FinalPresentation.pdf                   # Презентация решения
     └── README.md                               # документация по проекту
